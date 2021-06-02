@@ -1,7 +1,8 @@
 import 'package:html/parser.dart';
 
 // const String BASE_URL_API = "http://192.168.87.174:81/pensiun_app/";
-const String BASE_URL_API = "http://192.168.43.68:81/pensiun_app/";
+// const String BASE_URL_API = "http://192.168.43.68:81/pensiun_app/";
+const String BASE_URL_API = "http://pensiun-app.j-tech.co.id/";
 
 //here goes the function
 String parseHtmlString(String htmlString) {

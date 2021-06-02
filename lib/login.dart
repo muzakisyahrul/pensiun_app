@@ -38,6 +38,7 @@ class _LoginPageState extends State<LoginPage> {
       var res = await http
           .get(Uri.parse(BASE_URL_API + params))
           .timeout(const Duration(seconds: 10));
+      print(parseHtmlString(res.body));
       if (res.statusCode == 200) {
         var response = json.decode(res.body);
         print(response);
